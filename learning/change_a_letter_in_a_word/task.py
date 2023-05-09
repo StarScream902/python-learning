@@ -1,11 +1,5 @@
 import test
 
-"""
-Нужно реализовать функцию OneEditApart , проверяющую,
-можно ли одну строку получить из другой не более,
-чем за одно исправление (удаление, добавление, изменение символа):
-"""
-
 
 def one_edit_apart(first: str, other: str):
     if len(first) - 1 > len(other) or len(other) > len(first) + 1:
