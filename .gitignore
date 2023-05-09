@@ -1,1 +1,4 @@
 pythonProject/
+__pycache__/
+.idea/
+
